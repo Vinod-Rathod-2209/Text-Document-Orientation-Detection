@@ -8,3 +8,10 @@ Dataset used for training and testing are [Financial Document Image Dataset](htt
 ## Data Preprocessing
 Images are rotated at 45-degree intervals and resized to 400 x 400 pixels.
 
+## Some Results
+| Batch Size | Lr | Epoch | Precision | Recall | F1-score | Accuracy |
+|:----------:|:--:|:-----:|:---------:|:------:|:--------:|:--------:|
+| 32 | 0.0001 | 50 | 0.90 |	0.90 | 0.90 |	89.35 |
+| 64 | 0.0001 |	50 | 0.91 |	0.91 | 0.91 | 90.2 |
+| 32 | 0.00001 | 50 | 0.92 |	0.92 | 0.92 |	91.6 |
+| 64 | 0.00001 | 50 | 0.92 |	0.92 | 0.92 |	91.8 |
